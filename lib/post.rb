@@ -8,7 +8,7 @@ def initialize(title)
 end
 
 def author_name
-  self.author.name
+  return nil unless self.author.name
 end
 
 end
