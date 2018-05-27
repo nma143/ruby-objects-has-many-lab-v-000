@@ -7,5 +7,8 @@ def initialize(title)
   @@all<<self
 end
 
+def author_name
+  self.author
+end
 
 end
